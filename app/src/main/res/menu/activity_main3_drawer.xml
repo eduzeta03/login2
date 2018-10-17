@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/asistencia"
+            android:title="Tu Asistencia" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/horario"
+            android:title="Tu Horario" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/notas"
+            android:title="Tus Notas" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/comportamiento"
+            android:title="Tu Comportamiento" />
+    </group>
+
+    <item android:title="Configuración">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/contra"
+                android:title="Cambiar contraseña" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/salir"
+                android:title="Salir" />
+        </menu>
+    </item>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Import" />
+
+</menu>
